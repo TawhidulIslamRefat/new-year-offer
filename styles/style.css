@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+
+body{
+    color: #FFFFFF;
+}
+
+
+
+/* header section style */
+.header{
+    
+    text-align: center;
+    justify-content: center;
+    background:url(../images/Banner\ Image.png);
+    background-blend-mode:darken ;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    padding: 233px 300px;
+    /* background: linear-gradient(to bottom,
+    rgba(0,0,0,0.5)
+    rgba(20, 19, 19, 0.2));
+} */}
+
+
+.banner-title{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 0px;
+}
+.banner-sub-title{
+    font-size: 72px;
+    color: white;
+    margin-top: 17px;
+}
+/* catagori section style */
+.catagori{
+    text-align: center;
+    justify-content: center;
+    margin-top:0px;
+}
+.catagori-title{
+   color: red;
+   font-size: 88px;
+   font-weight: bold;
+}
+.catagori-sub-title{
+    color: red;
+    font-size: 24px;
+    font-family: 500;
+    margin-top: 8px;
+}
+.catagori-super-title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: black;
+}
+/* party-banner-style */
+.party-banner{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding: 200px 300px;
+    margin-top: 120px;
+
+}
+.party-banner-title{
+    font-size: 64px;
+    padding: 0px 552px 0px 126px;
+}
+.party-banner-discription{
+    font-size: 18px;
+    padding: 0px 497px 0px 126px;
+}
+.join{
+    font-size: 2px;
+    font-weight: bold;
+    
+}
