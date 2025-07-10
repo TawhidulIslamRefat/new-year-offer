@@ -11,8 +11,14 @@ body{
     color: #FFFFFF;
 }
 /* shered style */
+.dark-3{
+    color: #0702118c;
+}
 .red{
     color: #FF0000;
+}
+.black{
+    color: black;
 }
 
 
@@ -160,3 +166,161 @@ body{
    
     margin:10px;
 }
+/* best offer style */
+
+.best-offer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 110px;
+}
+.right-side-content-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.left-side-content-sub-title{
+    font-size: 48px;
+    font-weight:900;
+}
+.right-side-discription {
+    font-size: 25px;
+}
+.left-side-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.best-offer-pic{
+    padding: 37px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+/* discount section style */
+
+
+.discount-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:50px;
+    text-align: center;
+}
+.discount-content-sub-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+}
+.discount-content-title{
+    color: black;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.background-image-dis{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: contain;
+   
+}
+.pic{
+   
+  position: relative;
+ left:1000px;
+bottom: 600px;
+
+}
+/* portfolio section style */
+.portfolio{
+    margin-bottom: 110px;
+}
+
+
+
+.portfolio-sub-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolio-discription{
+    font-size: 20px;
+}
+.portfolio-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap:24px;
+}
+.portfolio-profile{
+    width: 520px;
+    height: 450px;
+}
+.portfolio-content{
+    margin-bottom: 50px;
+}
+
+/* subcribe section style */
+.subcribe{
+    background-color:rgba(255, 0, 0, 0.144) ;
+    border: none;
+    border-radius: 16px;
+}
+.subcribe-content{
+    padding: 100px 0px 0px 0px;
+   
+
+}
+.massage-image{
+    position:relative;
+    left: 725px;
+
+
+}
+
+.email{
+    align-items: center;
+    text-align: center;
+}
+.subcribe-title{
+    text-align: center;
+}
+.subcribe-discription{
+    text-align: center;
+}
+.subcribe-form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 110px;
+    padding-top: 30px;
+}
+.subcribe-form form{
+    background: #FFFFFF;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    border-radius:30px;
+}
+
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+     border-radius:30px;
+     padding-left: 20px;
+}
+
+form button{
+    background: #FF0000;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+     border-radius:0px 30px 30px 0px;
+}
+
+   
