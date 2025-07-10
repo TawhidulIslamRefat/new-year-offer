@@ -6,11 +6,14 @@
 
 
 
-
+/* body style */
 body{
     color: #FFFFFF;
 }
-
+/* shered style */
+.red{
+    color: #FF0000;
+}
 
 
 /* header section style */
@@ -21,9 +24,12 @@ body{
     background:url(../images/Banner\ Image.png);
     background-blend-mode:darken ;
     background-repeat: no-repeat;
-    
+    background-size: cover;
     background-position: center;
     padding: 233px 300px;
+    margin: 50px 140px;
+    border-radius: 16px;
+   
     /* background: linear-gradient(to bottom,
     rgba(0,0,0,0.5)
     rgba(20, 19, 19, 0.2));
@@ -44,7 +50,7 @@ body{
 .catagori{
     text-align: center;
     justify-content: center;
-    margin-top:0px;
+    margin-bottom: 70px;
 }
 .catagori-title{
    color: red;
@@ -63,26 +69,94 @@ body{
     margin-top: 15px;
     color: black;
 }
+/* main section style */
+.main{
+    margin: 50px 140px;
+}
+
+
+
 /* party-banner-style */
 .party-banner{
     background-image: url(../images/Vectorrr.png);
     background-repeat: no-repeat;
-    background-position: center;
-    
-    padding: 200px 300px;
-    margin-top: 120px;
+    /* background-position: center; */
+    background-size: cover;
+    /* padding: 200px 300px; */
+    height: 650px;
+    width: auto;
+     border-radius: 16px;
+   
 
 }
 .party-banner-title{
     font-size: 64px;
-    padding: 0px 552px 0px 126px;
+   
+   
+    
 }
 .party-banner-discription{
     font-size: 18px;
-    padding: 0px 497px 0px 126px;
+   padding: 0px;
+   color: #FFFFFF;
+   
 }
-.join{
-    font-size: 2px;
+.party-banner-content{
+   display: flex;
+   justify-content: center;
+ align-items: center;
+   
+
+}
+.party-button{
+    font-size: 20px;
     font-weight: bold;
+    text-align: left-bottom;
+    padding: 48px 0px 0px 158px;
     
+}
+.banner-image{
+    padding: 85px 138px 67px 0px;
+}
+.party-banner-content-2{
+    padding: 126px 39px 142px 156px;
+}
+
+/* visit style */
+          
+.btn-primary{
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 52px;
+}
+.visit-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+
+
+.visit{
+     line-height:35px;
+     background-image: linear-gradient(rgba(255, 0, 0, 0.144),white);
+     padding: 110px auto 110px auto;
+     margin-top: 166px;
+     margin-bottom: 120px;
+     border-radius: 16px;
+}
+.visit-title{
+    font-size: 32px;
+    font-weight:600;
+    color: black;
+   
+    margin:10px;
 }
